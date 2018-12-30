@@ -49,18 +49,7 @@
 		
 		<div>
 			<h2>Comments</h2>
-			<div id="comments">
-              % for comment in comments:
-              <div class="comment" style="border:3px; padding: 15px">
-                <div>
-                  <span>{{username}} </span>
-                  <hr />
-                </div>
-                <br />
-                <p>{{comment}} </p>
-              </div>
-              % end
-            </div>
+
 		</div>
 		
     </section>
