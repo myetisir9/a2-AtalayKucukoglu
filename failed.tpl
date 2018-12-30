@@ -37,10 +37,12 @@
         </form>
         </div>
 		<div style="margin-left:30px;">
-            <form action="/login" method="post" 
+            <form action="/comment" method="post"
             style="font: bold 20px Times;" >
             Comment: <input name="comment" type="text"  />
-			Show my user name: yes  no
+			Show my user name:
+			<input type="radio" name="show" value="yes" checked> Yes
+			<input type="radio" name="show" value="no"> No<br>
             <input class="recipe-milk-button-home" value="Comment" type="submit" />
         </form>
         </div>
@@ -51,11 +53,11 @@
               % for comment in comments:
               <div class="comment" style="border:3px; padding: 15px">
                 <div>
-                  <span>{{comment['username']}} </span>
+                  <span>{{username}} </span>
                   <hr />
                 </div>
                 <br />
-                <p>{{comment['text']}} </p>
+                <p>{{comment}} </p>
               </div>
               % end
             </div>
