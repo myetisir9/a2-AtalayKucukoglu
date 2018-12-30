@@ -1,0 +1,185 @@
+.h1 {
+    font: normal bold 50px Times;
+    text-align: center;
+}
+
+h2 {
+    font: normal bold 30px Times;
+}
+
+.home-box-text{
+    font: normal bold 35px Times, serif;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.dessert-item {
+    width: 300px;
+    height: 200px;
+}
+
+.dessert-solo {
+    width: 600px;
+    height: 400px;
+    float: right;
+    margin: 15px;
+}
+
+.nav-bar-1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav-bar-2 {   
+    float: left;
+}
+
+.nav-bar-2 a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav-bar-2 a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.rightbox{
+    width: 800px;
+    height: 600px;
+    float: right;
+    background-image: url("img/kuru-baklava.jpeg");
+    color: #434C00;
+    margin: 15px;
+}
+.leftbox{
+    width: 800px;
+    height: 600px;
+    float: left;
+    background-image: url("img/sutlac.jpg"); 
+    color: #7E522D;
+    margin: 15px;
+}
+
+table {
+    margin-left: 5%;
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    border: double 1px lightgrey
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.recipe {
+    margin-bottom: 10%;
+    margin-left: 5%;
+    font: normal 17px Arial, sans-serif;
+}
+
+.dessert-summary {
+    font: italic 40px Times;
+}
+.dessert-item-summary {
+    font: italic 30px Times;
+}
+
+.recipe-milk-button {
+    background-color: #7E522D;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    margin: 4px 0px;
+    cursor: pointer;
+}
+.recipe-milk-button-home {
+    background-color: #7E522D;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    margin: 4px 35px;
+    cursor: pointer;
+}
+
+.recipe-syrup-button {
+    background-color: #434C00;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    margin: 4px 0px;
+    cursor: pointer;
+}
+.recipe-syrup-button-home {
+    background-color: #434C00;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    margin: 4px 35px;
+    cursor: pointer;
+}
+
+
+ol li {
+    margin-bottom : 15px;
+}
+
+.home-list {
+    margin-top: 0px;
+    font: normal 20px Times;
+}
+
+.logo-right {
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+.logo-left {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.citation {
+    font: italic bold 20px Times;   
+}
+
+.login-box {
+	font: bold 20px Times;
+	width: 800px;
+    height: 300px;
+    float: left;
+    color: #7E522D;
+    margin: 45px;
+
+}
+
+
+form input {
+	width: 100px;
+    height: 25px;
+}

@@ -1,0 +1,86 @@
+    <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Traditional Turkish Desserts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="inkscape/logo.png">
+</head>
+
+<body style="background-color: beige"> 
+    <nav class="navbar navbar-inverse">
+        <ul class="nav-bar-1">
+            <li class="nav-bar-2">
+                <a class="active" href="index.html">Home</a>
+            </li>
+            <li class="nav-bar-2">
+                <a href="milk.html">Desserts Made With Milk</a>
+            </li>
+            <li class="nav-bar-2">
+                <a href="syrup.html">Desserts Made With Syrup</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section>
+        
+        <h1 class="h1"><img class="logo-left" src="inkscape/logo.png" alt="logo">Traditional Turkish Desserts<img class="logo-right" src="inkscape/logo.png" alt="logo"></h1>
+        <div style="margin-left:30px;">
+            <form action="/login" method="post" 
+            style="font: bold 20px Times;" >
+            Username: <input name="username" type="text"  />
+            Password: <input name="password" type="password" />
+            <input class="recipe-milk-button-home" value="Login" type="submit" />
+        </form>
+        </div>
+        <div class="leftbox">
+            <h2 class="home-box-text">Made With Milk</h2>
+            <br>
+            <div>
+                 <ul class="home-list" >
+                    <li> <a style="color: #7E522D;" href="sutlac.html">Sütlaç</a> </li>
+                    <li> <a style="color: #7E522D;" href="kazandibi.html">Kazandibi</a> 
+                        <ul>
+                            <li>With Mastic</li>
+                        </ul>
+                    </li>
+                    <li> <a style="color: #7E522D;" href="keskul.html">Keşkül</a> </li>
+                </ul>
+            </div>
+            <button class="recipe-milk-button-home" onclick="location.href='milk.html'">See All</button>
+        </div>
+        
+        <div class="rightbox">
+            <h2 class="home-box-text" >Made With Syrup</h2>
+            <br>
+            <div>
+                <ul class="home-list">
+                        <li> <a  style="color: #434C00;"  href="baklava.html">Baklava</a>
+                        <ul>
+                            <li>With Pistachio</li>
+                            <li>With Walnut</li>
+                        </ul>
+                        </li>
+                        <li> <a  style="color: #434C00;" href="kunefe.html">Künefe</a>
+                        <ul>
+                        <li>With Pistachio</li>
+                        <li>With Walnut</li>
+                    </ul>
+                    </li>
+                    <li> <a  style="color: #434C00;" href="kadayif.html">Kadayıf</a>
+                    <ul>
+                        <li>With Pistachio</li>
+                        <li>With Walnut</li>
+                    </ul>
+                    </li>
+                </ul>
+            </div>
+            <button class="recipe-syrup-button-home" onclick="location.href='syrup.html'">See All</button>
+        </div>
+    </section>
+</body>
+
+</html>
+    
