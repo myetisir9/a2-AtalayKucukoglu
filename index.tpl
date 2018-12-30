@@ -26,7 +26,7 @@
 
     <section>
         
-        <h1 class="h1"><img class="logo-left" src="/static/inkscape/logo.png" alt="logo">Traditional Turkish Desserts<img class="logo-right" src="inkscape/logo.png" alt="logo"></h1>
+        <h1 class="h1">Traditional Turkish Desserts</h1>
         <div style="margin-left:30px;">
             <form action="/login" method="post" 
             style="font: bold 20px Times;" >
