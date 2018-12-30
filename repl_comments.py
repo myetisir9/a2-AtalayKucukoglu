@@ -6,7 +6,7 @@ from typing import List, Any
 ## derived from
 # https://bitbucket.org/damienjadeduff/hashing_example/raw/master/hash_password.py
 
-comments = []
+comments = {}
 ## password: simplicity
 correct_password = "2ae0514924b1db04e8c45002326641b5e6c74f182288ae8702d5c7250374669e"
 
@@ -24,7 +24,7 @@ def add_comments():
             print("Exitted succesfully")
             break
         else:
-            comments.append(comment)
+            comments.push(comment)
             print("Comments:")
             for i in range(len(comments)):
                 print(str(i + 1) + ". " + comments[i])
